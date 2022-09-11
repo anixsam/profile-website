@@ -13,12 +13,12 @@ $(document).ready(function(){
     if(loggedState=="true" && stayState=="false" && stId == null)
     {
         alert("Session Expired! Please Login again");
-        window.location = "/pages/login.html";
+        window.location = "/profile-website/pages/login.html";
     }
 
     if(loggedState=="false")
     {
-        window.location = "/pages/login.html";
+        window.location = "/profile-website/pages/login.html";
     }
     
     $("#user").text(`${user}`);
@@ -26,6 +26,6 @@ $(document).ready(function(){
     $("#logout").click(function(){
         localStorage.setItem("loggedIn",false);
         localStorage.setItem("stay",false);
-        window.location = "/pages/login.html";
+        window.location = "/profile-website/pages/login.html";
     });
 });
