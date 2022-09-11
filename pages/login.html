@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../scripts/jquery-3.6.0.min.js"></script>
+    <script src="../scripts/login.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Login</a>
+        </nav>
+        <div class="login-main container-main">
+            <div class="login-wrapper">
+                <div class="circle">
+                <div class="login-user-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                    </svg>
+                </div>
+                </div>
+                <div class="form">  
+                    <input type="text" class ="textBox" id="email" placeholder="Enter your email" >
+                    <p class="errorText" id="emailLoginError"></p>
+                    <input type="password" class="textBox password" id="password" placeholder="Enter your password">
+                    <p class="errorText" id="passwordError"></p>
+                    <div class="signIn"><input type="checkbox" class="checkbox" id="stayCheck"><label>Keep me signed in</label></div>
+                    <div class="signIn"><a href="./register.html">Don't have an account? Register Here</a></div>
+                    <div class="signIn"><input type="button" class="btn btn-primary loginBtn" value="Login"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

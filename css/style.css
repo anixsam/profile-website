@@ -1,0 +1,772 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: max-content;
+    width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+}
+.main
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("https://i.pinimg.com/originals/93/fa/7d/93fa7d96b0e3d2254a7998eae1f19041.jpg");
+    height: max-content;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar
+{
+    padding :10px;
+    background: transparent !important;
+    font-size: 25px;
+    height:  50px;
+}
+
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+.navbar-brand:hover
+{
+    color: white;
+}
+
+.container-main
+{
+    height: 1900px;
+    width: 100%;
+    display: inline;
+}
+
+footer
+{
+    background-color:transparent;
+    border-top : solid 0.1px rgba(128, 128, 128, 0.411);
+    color: white;
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+    height: auto;
+    width: 100%;
+    font-size: 40px;
+}
+
+footer p 
+{
+    padding-top: 80px;
+}
+
+.logout
+{
+    float: right;
+    position: absolute;
+    right: 10px;
+    padding: 5px;
+    color: rgb(156, 156, 156);
+}
+
+.logout-icon
+{
+    color: white;
+}
+
+.logout-icon:hover
+{
+    color: red;
+}
+/* Home Page Styles  */
+
+.academics-card
+{
+    width: 80%;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+    background-color: rgba(153, 153, 153, 0.226);
+    border-radius: 20px;
+}
+
+.dp
+{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.details
+{
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: block;
+    justify-content: center;
+}
+
+.name
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dp-img
+{
+    height: 200px;
+    width: 197px;
+    border-radius: 100%;
+}
+
+.address
+{
+    padding:20px;
+    text-align: center;
+    height: auto;
+    font-size: larger;
+}
+
+.dp-img:hover
+{
+    filter: opacity(80%);
+}
+
+.academics
+{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    margin-top:60px;
+}
+.other-details-card
+{
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+    background-color: rgba(153, 153, 153, 0.226);
+    border-radius: 20px;
+}
+
+
+.acad-div
+{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+}
+
+.icon
+{
+    width: 110px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.105);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-elem
+{
+    height: 50px;
+    width: 50px;
+    padding: 20p;
+    color: white;
+}
+
+.icon:hover
+{
+    background-color: rgba(255, 255, 255, 0.275);
+}
+
+.summary
+{
+    width: 100%;
+    color: white;
+    padding-left: 50px;
+}
+
+.learn-more
+{
+    background-color: rgb(8, 116, 170);
+    border: none;
+    float: right;
+    position: relative;
+    bottom: 0px;
+    width: 120px;
+
+}
+
+.learn-more:hover
+{
+    filter: opacity(80%);
+    background-color: rgba(0, 217, 255, 0.737);
+}
+
+/* Home Page Styles  */
+
+
+/* Login Page Style */
+
+.login-main
+{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+
+.login-wrapper
+{
+    height: 500px;
+    width: 500px;
+    margin-top: 120px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(195, 233, 236, 0.661);
+    mix-blend-mode: hard-light;
+    border-radius: 30px;
+    box-shadow: 0px 5px 20px 0.1px rgb(178, 180, 178);
+}
+
+.login-user-icon
+{
+    height: 150px;
+    width: 150px;
+    position:relative;
+    border-radius:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: rgb(220, 220, 220);
+}
+
+.login-user-icon svg
+{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+
+.circle
+{
+    height: 180px;
+    width: 180px;
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+    background: grey;
+    mix-blend-mode: dark;
+}
+
+.form
+{
+    width: 500px;
+    height: max-content;
+    position: absolute;
+    display: inline;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+.textBox
+{
+    display: block;
+    width: 90%;
+    height: 10%;
+    margin-top: 30px;
+    border: none;   
+    background: transparent;
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+    padding:10px;
+    text-align: left;
+}
+
+.errorText
+{
+    color : rgba(182, 0, 0, 0.845);
+    margin-left: 20px;
+    display: none;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+::placeholder
+{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.608);
+    text-align: left;
+}
+
+.checkbox
+{
+    margin-right: 10px;
+    height: 20px !important;
+    width: 20px !important;
+}
+.signIn
+{
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+    left:-25px;
+}
+
+.form .btn
+{
+    background-color: rgb(111, 188, 239);
+    border:none;
+    width: 100px;
+    margin-top:20px;
+}
+
+.form .btn:hover
+{
+    background-color: rgb(70, 201, 230);
+}
+
+.signIn a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.signIn a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+/* Login Page Style */
+
+
+
+
+/* Register Page Style  */
+
+.register-page-main
+{
+    height: 500px !important;
+}
+
+.register-main
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.register-wrapper
+{
+    width: 90%;
+    border-radius: 15px;
+    height: max-content;
+    background: white;
+}
+.right
+{
+    display: flex;
+    align-items: center;  
+}
+
+.left
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.right .img-fluid
+{
+    width: auto;
+    height: auto;
+    filter: hue-rotate(230deg);
+}
+
+
+.form-register
+{
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstname
+{
+    width: 150px;
+}
+
+.secondname
+{
+    width: 170px;
+}
+
+.firstname-div
+{
+    width: auto;
+    float: left;
+}
+
+.form-register .register
+{
+    width: 65%;
+}
+
+.dob
+{
+    color: grey;
+    padding-left: 20px;
+}
+
+.register-btn
+{
+    width: 40%;
+    margin-top: 30px;
+}
+
+.form-register a
+{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.form-register a:hover
+{
+    color: blue;
+}
+
+
+#emailError,#phoneError,#dateError,#passError,#confPassError
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Register Page Style */
+
+
+/* Academics Page Style */
+
+.academics-container
+{
+    padding : 50px;
+}
+
+.timeline
+{
+    /* border:solid green; */
+    width:180px;
+    height: 180px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 0;
+}
+
+.timeline::before
+{
+    content: "";
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 1px;
+    height: 180px;
+    left: 70px;   
+    z-index: 0; 
+}
+
+.timeline::after
+{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: rgb(143, 141, 141);
+    border-radius: 100%;
+    z-index: 1;
+    content: "";
+    left : 170.5px
+}
+
+.timeline-content
+{
+    float: left;
+    display: flex;
+    align-items: center; 
+}
+
+.timeline-card
+{
+    height: max-content;
+    color: white;
+    padding: 5px;
+
+}
+
+/* Academics Page Style */
+
+/* Activities Page Style  */
+
+.activities-container
+{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.activities-card
+{
+    height: 250px;
+    margin: auto;
+    margin-top: 150px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: rgba(255, 255, 255, 0.568);
+    border-radius: 10px ;
+    transition: 0.2s;
+    color: black;
+}
+
+.activities-card h3
+{
+    color: black;
+}
+
+.activities-card:hover
+{
+    background-color: white;
+    transform: scale(1.02,1.02);
+}
+
+.activities-card p
+{
+    font-size: 25px;
+    font-weight: light;
+    padding: 10px;
+}
+
+/* Activities Page Style  */
+
+/* Feedback Page Style */
+
+.feedback-main
+{
+    /* border: solid red; */
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.feedback-form
+{
+    height: max-content;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.feedback-input
+{
+    display: block;
+    height: 60px;
+    margin-top: 20px;
+    border: none;   
+    background: transparent;
+    border-bottom:2px solid rgba(0, 0, 0, 0.2);
+    padding:15px;
+    text-align: left;
+}
+
+.feedback-input::placeholder
+{
+    text-align: left;
+}
+
+
+.feedback-title
+{
+    margin-top: 10px ;
+    height: max-content;
+}
+
+.feedback-title p
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feedback-btn
+{
+    margin-top:50px;
+    margin-bottom: 80px;
+}
+
+#nameFieldError,#emailFieldError,#feedbackFieldError
+{
+    text-align: center;
+    margin-top:10px;
+}
+
+.feedback-ul
+{
+    width: 80%;
+    display: block;
+    list-style: none;
+}
+
+.feedback-ul h2,h3
+{
+    color: white;
+}
+
+.feedback-ul h3
+{
+    color: white;
+    margin: 30px;
+}
+.feedback-list
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-item
+{
+    width: 80%;
+    margin-top : 50px;
+}
+
+.feedback-custom-list
+{
+    background-color: white;
+    border-radius : 20px;
+    margin-left: 20%;
+}
+
+.feedback-details
+{
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+.feedback-prefix
+{
+    display: block; 
+    padding-top: 20px;
+}
+
+
+.usercircle
+{
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+    border-radius : 100%;
+    background : rgb(198, 198, 198);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+
+.usericon
+{
+    transform: scale(2.5);
+}
+
+/* Feedback Page Style */
+
+
+/* BMI Page Style  */
+
+.bmi-main
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.bmi-area
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.field
+{
+    margin-top: 20px;
+}
+
+.field select,input
+{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-bottom: solid 1px grey;
+    text-align: center;
+}
+
+.field b
+{
+    margin-right: 20px;
+    margin-left: 20px;;
+}
+
+.field .calculate
+{
+    width: auto;
+    height: auto;
+    margin-left: 35% ;
+    margin-top: 50px;
+}
+
+.result
+{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+
+/* BMI Page Style  */
