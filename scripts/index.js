@@ -13,12 +13,12 @@ $(document).ready(function(){
     if(loggedState=="true" && stayState=="false" && stId == null)
     {
         alert("Session Expired! Please Login again");
-        window.location = "../pages/login.html";
+        window.location = "./pages/login.html";
     }
 
     if(loggedState=="false")
     {
-        window.location = "../pages/login.html";
+        window.location = "./pages/login.html";
     }
     
     $("#user").text(`${user}`);
